@@ -1,0 +1,70 @@
+# 注释
+# JSON: JavaScript Object Notation(JavaScript 对象表示法)
+---
+多行注释
+---
+one: 1
+key: value;
+# this is a comment<br />
+Key: Value   #this another comment
+# a collection of fancy cars<br />
+Fancy-Cars<br />
+   - Porsche<br />
+   - Aston Martin<br />
+   - Bentley
+# json
+
+# 可以通过放置
+# 一个问号后跟一个管道符号来标记复杂键的开头，
+# 从而满足复杂键的需求
+? | <br />
+  starting a complex<br />
+  key with many<br />
+  lines<br />
+: and here comes the value!
+
+# Car information<br />
+- Driver<br />
+      name: Francis Black<br />
+      age: 21<br />
+      Driving license type:<br />
+          - full car license<br />
+          - racing license formula V : details<br />
+            license id: ABC12345<br />
+            expiry date: 2017-12-28
+
+# 标量（Scalars）
+# 表示 YAML 中最基本的数据类型
+
+?
+    - keypart1
+    - keypart2
+:
+    - value1
+    - value2
+
+boolean: 
+  - true
+  - yes
+  - false
+  - no
+# json
+"boolean" : [true,true,false,false]
+
+int: 
+  - 666
+  - 0001_0000
+
+#json
+"int" : [666 ,4096]
+
+companies:
+    -
+    id : 1
+    name: company1
+    price: 200w
+    - 
+    id: 2
+    name: company2
+    price: 500w
+
